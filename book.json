@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "postings": [
+    {
+      "debit": "cash",
+      "credit": "revenue",
+      "amount": 1234,
+      "memo": "first sale"
+    },
+    {
+      "debit": "expenses",
+      "credit": "cash",
+      "amount": 400,
+      "memo": "coffee"
+    }
+  ]
+}
