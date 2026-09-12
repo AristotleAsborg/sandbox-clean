@@ -7,6 +7,15 @@ It exists so the pipeline can do a fast smoke run against a project that is
 supposed to be healthy: everything passes, nothing is flaky, the README matches
 the code.
 
+## Install
+
+```console
+python -m pip install -e .
+```
+
+Requires Python 3.10 or newer. The runtime has no third-party dependencies;
+`pytest` is needed only to run the test suite.
+
 ## Usage
 
 ```python
